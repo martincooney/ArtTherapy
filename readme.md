@@ -4,12 +4,15 @@ Baxter Basic Art Therapy Demo
 1. Instructions
 
 -Download "Baxter Basic Demo", add the files therapy_gui.cpp and therapy.py to the src and scripts folders, modifying CMakeLists.txt as needed; add the speech recognition files to where you have pocketsphinx.
+
 -Follow all of the instructions for the "Baxter Basic Demo" except for starting the frontend (C++) and backend (python)
+
 -Instead call rosrun your_package therapy_gui to start the front end, and rosrun your_package therapy.py to start the backend.
 
 2. Licenses
 
-This code is based on Rethink Robotics' Baxter SDK (www.rethinkrobotics.com). 
+This code is based on Rethink Robotics' Baxter SDK (www.rethinkrobotics.com).
+
 Please respect their license.
 
 For the rest, the MIT license applies:
